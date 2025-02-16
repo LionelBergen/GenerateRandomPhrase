@@ -1,6 +1,6 @@
 @ECHO OFF
 SETLOCAL ENABLEDELAYEDEXPANSION
-SET file=text.txt
+SET file=%~dp0\text.txt
 SET /a lineCount=0
 SET /a lines
 SET /a randomNumber=-1
